@@ -17,11 +17,12 @@
   --accent-color: #ff8dcb;
   --focus-color: #ff0070;
   --decoration-color: #353430;
-  --decoration-transparency-color: rgba(50, 49, 45, 0.40);
-  --background-image: url("../images/cover-image-light.png");
+  --decoration-transparency-color: rgba(50 49 45 0.40);
+  --background-image: url(../images/cover-image-light.png);
 }
 
 @media (prefers-color-scheme: light) {
+  
   :root {
     --background-color: #fff1f7;
     --header-title-color: #ffc2e6;
@@ -31,7 +32,7 @@
     --accent-color: #ff8dcb;
     --focus-color: #ff0070;
     --decoration-color: #353430;
-    --decoration-transparency-color: rgba(50, 49, 45, 0.40);
-    --background-image: url("../images/cover-image-light.png");
+    --decoration-transparency-color: rgba(50 49 45 0.40);
+    --background-image: url(../images/cover-image-light.png);
   }
 }
