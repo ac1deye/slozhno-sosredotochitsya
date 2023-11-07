@@ -10,29 +10,37 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --background-color: #fff1f7;
-  --header-title-color: #ffc2e6;
+  --huge-title-color: #ffc2e6;
   --title-color: #353430;
   --text-color: #353430;
   --text-accent-color: #353430;
   --accent-color: #ff8dcb;
   --focus-color: #ff0070;
   --decoration-color: #353430;
-  --decoration-transparency-color: rgba(50 49 45 0.40);
+  --decoration-transparency-color: rgba(50, 49, 45, 0.40);
   --background-image: url(../images/cover-image-light.png);
+}
+
+.page.theme_light .rec__block {
+  display: none;
 }
 
 @media (prefers-color-scheme: light) {
   
   :root {
     --background-color: #fff1f7;
-    --header-title-color: #ffc2e6;
+    --huge-title-color: #ffc2e6;
     --title-color: #353430;
     --text-color: #353430;
     --text-accent-color: #353430;
     --accent-color: #ff8dcb;
     --focus-color: #ff0070;
     --decoration-color: #353430;
-    --decoration-transparency-color: rgba(50 49 45 0.40);
+    --decoration-transparency-color: rgba(50, 49, 45, 0.40);
     --background-image: url(../images/cover-image-light.png);
+  }
+
+  .rec__block {
+    display: none;
   }
 }

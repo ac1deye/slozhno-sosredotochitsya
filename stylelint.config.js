@@ -11,7 +11,7 @@ module.exports = {
     'no-duplicate-selectors': true,
     'no-invalid-position-at-import-rule': true,
     'alpha-value-notation': 'number',
-    'color-function-notation': 'modern',
+    'color-function-notation': 'legacy',
     'color-hex-length': 'short',
     'length-zero-no-unit': true,
     'font-family-name-quotes': 'always-where-required',
