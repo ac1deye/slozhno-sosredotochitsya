@@ -108,11 +108,11 @@
   justify-self: left;
   margin-inline-start: 10px;
   margin-inline-end: 10px;
+  text-shadow: 4px 4px 0 var(--huge-title-shadow-color);
 }
 
 .title-huge {
   color: var(--huge-title-color);
-  text-shadow: 4px 4px 0 var(--accent-color);
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   font-weight: 700;
   line-height: 0.825;
@@ -208,6 +208,10 @@
   justify-items: center;
   min-height: 100vh;
   padding: var(--inset);
+}
+
+.footer__title {
+  text-shadow: 2px 2px 0 var(--huge-title-shadow-color);
 }
 
 @media (width >= 768px) {

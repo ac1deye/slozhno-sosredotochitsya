@@ -11,6 +11,7 @@
   */
   --background-color: #fff1f7;
   --huge-title-color: #ffc2e6;
+  --huge-title-shadow-color: #ff8dcb;
   --title-color: #353430;
   --text-color: #353430;
   --text-accent-color: #353430;
@@ -30,6 +31,7 @@
   :root {
     --background-color: #fff1f7;
     --huge-title-color: #ffc2e6;
+    --huge-title-shadow-color: #ff8dcb;
     --title-color: #353430;
     --text-color: #353430;
     --text-accent-color: #353430;
@@ -43,4 +45,19 @@
   .rec__block {
     display: none;
   }
+
+  @media (width >= 1024px) {
+    
+    :root {
+      --huge-title-shadow-color: #FF0070;
+    }
+  }
 }
+
+@media (width >= 1024px) {
+
+  .page.theme_light {
+    --huge-title-shadow-color: #FF0070;
+  }
+}
+
